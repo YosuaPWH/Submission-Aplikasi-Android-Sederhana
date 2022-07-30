@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Favorite Novel</string>
+    <string name="Judul_Novel">Judul Novel</string>
+    <string name="genre">Genre</string>
+    <string name="rating">Rating</string>
+    <string name="negara">Negara</string>
+    <string name="negaraFix">Country:</string>
+    <string name="genreFix">Genre:</string>
+    <string name="about">about</string>
+    <string name="nama">Yosua P W Haloho</string>
+    <string name="email">halohowidia4@gmail.com</string>
+    <string name="yearFix">"Year: "</string>
+    <string name="author">Biga(비가)</string>
+    <string name="description">Deskripsi</string>
+</resources>
