@@ -7,5 +7,6 @@ data class Novel(
     var negara: String = "",
     var year: String = "",
     var author: String = "",
-    var description: String = ""
+    var description: String = "",
+    var moreDetail: String = ""
 )

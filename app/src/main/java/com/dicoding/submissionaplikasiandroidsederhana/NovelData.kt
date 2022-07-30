@@ -67,7 +67,7 @@ object NovelData {
     )
 
     private val novelAuthor = arrayOf(
-        "Cuttlefish That Loves Diving(爱潜水的乌贼)",
+        "Cuttlefish That Loves Diving",
         "Yu Ryeo Han(유려한)",
         "Biga(비가)",
         "The Plagiarist(文抄公)",
@@ -198,6 +198,19 @@ object NovelData {
                 "Eh !? WHAT IS THE POINT OF GETTING ONE IF I DIE !?"
     )
 
+    private val novelDetail = arrayOf(
+        "https://www.novelupdates.com/series/lord-of-the-mysteries/",
+        "https://www.novelupdates.com/series/trash-of-the-counts-family/",
+        "https://www.novelupdates.com/series/return-of-mount-hua-sect/",
+        "https://www.novelupdates.com/series/warlock-of-the-magus-world/",
+        "https://www.novelupdates.com/series/questioning-heaven-desiring-the-way/",
+        "https://www.novelupdates.com/series/overgeared/",
+        "https://www.novelupdates.com/series/omniscient-readers-viewpoint/",
+        "https://www.novelupdates.com/series/nano-mashin/",
+        "https://www.novelupdates.com/series/the-world-after-the-fall/",
+        "https://www.novelupdates.com/series/sss-class-suicide-hunter/"
+    )
+
     val listData: ArrayList<Novel>
         get() {
             val list = arrayListOf<Novel>()
@@ -210,6 +223,7 @@ object NovelData {
                 novel.year = novelYear[position]
                 novel.author = novelAuthor[position]
                 novel.description = novelDescription[position]
+                novel.moreDetail = novelDetail[position]
                 list.add(novel)
             }
             return list

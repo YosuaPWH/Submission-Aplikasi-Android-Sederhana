@@ -47,8 +47,10 @@ class ListNovelAdapter(private val listNovel: ArrayList<Novel>) : RecyclerView.A
             detail.putExtra(DetailActivity.EXTRA_AUTHOR, novel.author)
             detail.putExtra(DetailActivity.EXTRA_YEAR, novel.year)
             detail.putExtra(DetailActivity.EXTRA_DESCRIPTION, novel.description)
+            detail.putExtra(DetailActivity.EXTRA_MORE_DETAIL, novel.moreDetail)
             context.startActivity(detail)
         }
+
     }
 
     override fun getItemCount(): Int {
